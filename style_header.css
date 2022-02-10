@@ -1,0 +1,101 @@
+@charset "ut8";
+#header-commun[_ngcontent-hqv-c77] [class^=icon-][_ngcontent-hqv-c77] {
+    font-size: 19px;
+    line-height: .8;
+    vertical-align: bottom;
+}
+
+#header-commun[_ngcontent-hqv-c77] .header-link[_ngcontent-hqv-c77] {
+    font-size: 19px;
+    line-height: .8;
+    vertical-align: bottom;
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    min-height: 30px;
+    border-radius: 0;
+    background: var(--light-placeholder-color);
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77]:before {
+    display: none;
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77]:after {
+    display: none;
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] li[_ngcontent-hqv-c77] {
+    margin: 0 0 0 5px;
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] li[_ngcontent-hqv-c77] a[_ngcontent-hqv-c77],
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] li[_ngcontent-hqv-c77] button[_ngcontent-hqv-c77] {
+    padding: 2px 8px 5px;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--light-primary-color);
+    background: #fff;
+    box-shadow: 0 0 5px #0003;
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] li[_ngcontent-hqv-c77] a.logout[_ngcontent-hqv-c77],
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] li[_ngcontent-hqv-c77] button.logout[_ngcontent-hqv-c77] {
+    text-align: center;
+    color: #fff;
+    background: var(--secondary-color);
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] li.animation-header[_ngcontent-hqv-c77] button[_ngcontent-hqv-c77]:not(.btn-link) {
+    position: relative;
+    padding: 2px 28px 5px 8px;
+    border-radius: 50px;
+    overflow: hidden;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--secondary-color);
+    background: #fff;
+    box-shadow: 0 0 5px #0003;
+}
+
+#header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] li.animation-header[_ngcontent-hqv-c77] button[_ngcontent-hqv-c77]:not(.btn-link) .badge-panier[_ngcontent-hqv-c77] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    text-align: center;
+    line-height: 2;
+    color: #fff;
+    background: var(--secondary-color);
+}
+
+.page-accueil[_nghost-hqv-c77] #header-commun[_ngcontent-hqv-c77],
+.page-accueil [_nghost-hqv-c77] #header-commun[_ngcontent-hqv-c77] {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.page-accueil[_nghost-hqv-c77] #header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77],
+.page-accueil [_nghost-hqv-c77] #header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] {
+    background: none;
+}
+
+.page-accueil[_nghost-hqv-c77] #header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] > span[_ngcontent-hqv-c77],
+.page-accueil [_nghost-hqv-c77] #header-commun[_ngcontent-hqv-c77] .navbar[_ngcontent-hqv-c77] > span[_ngcontent-hqv-c77] {
+    opacity: 0;
+}
+
+.page-accueil #header-commun .navbar>span {
+	opacity: 0;
+}
