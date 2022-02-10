@@ -7,10 +7,6 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-h5 {
- color: var(--light-primary-color);
-}
-
 body {
     margin: 0;
 	background-color: #fff;
