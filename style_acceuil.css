@@ -10,7 +10,7 @@ html {
 body {
     margin: 0;
 	background-color: #fff;
-	color: var(--light-primary-color);
+	color: var(--light-primary-color)
 }
 
 @media print {
@@ -37,7 +37,6 @@ html {
 body {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 1.42857143;
-    color: #333;
     background-color: #fff;
 }
 
@@ -54,7 +53,7 @@ body {
     --light-primary-color: #9bb400;
     --smalldark-primary-color: #76b400;
     --dark-primary-color: #5d9506;
-    --ultradark-primary-color: #092354;
+    --ultradark-primary-color: #335400;
     --light-secondary-color: #e46bad;
     --secondary-color: #cd1478;
     --dark-secondary-color: #960b56;
@@ -70,6 +69,7 @@ body {
     --search-color: #a5a7ab;
 	
 	--icon-size: 28px;
+	--weight-size: 70;
 }
 * {
     box-sizing: border-box;
@@ -80,7 +80,6 @@ body {
 body {
     overflow-x: hidden;
     font-size: 14px;
-    color: #000;
 }
 
 .cke {
@@ -3349,7 +3348,7 @@ html {
 body {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 1.42857143;
-    color: #333;
+    color: var(light-primary-color);
     background-color: #fff;
 }
 
@@ -20597,7 +20596,6 @@ div.dhx_menu_icon {
 body {
     overflow-x: hidden;
     font-size: 14px;
-    color: #000;
 }
 
 h1,
@@ -20666,9 +20664,10 @@ a:link,
 button.btn.btn-link:link {
     text-decoration: none;
     outline: unset;
-    color: #000;
+    color: var(--ultradark-primary-color);
     transition: all .5s;
     cursor: pointer;
+	font-weight: var(--weight-size);
 }
 
 .link:visited,
@@ -20685,7 +20684,8 @@ button.btn.btn-link:focus,
 button.btn.btn-link:hover {
     text-decoration: underline;
     outline: unset;
-    color: #000;
+    color: #647500;
+	font-weight: var(--weight-size);
 }
 
 input,
@@ -22369,6 +22369,7 @@ a.text-underline {
     font-weight: 700;
     line-height: 1.2;
 }
+
 
 .message-item .qa-message-when-data {
     font-size: 11px;
